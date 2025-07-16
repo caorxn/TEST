@@ -11,7 +11,7 @@ echo.
 where git >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
     echo Git is not installed. Please install Git to use this updater.
-    goto end
+        goto end
 )
 
 :: Check if .git directory exists
